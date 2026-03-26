@@ -16,7 +16,7 @@ public class RelativizeTest01 {
         Path absolute3 = Paths.get("/attackShark");
         Path relativos0 = Paths.get("temp");
         Path relativos1 = Paths.get("temp/temp.248120");
-
+        
         System.out.println("-".repeat(50));
         System.out.println(absolute0.relativize(absolute1));
         System.out.println(absolute1.relativize(absolute0));
