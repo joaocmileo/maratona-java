@@ -1,7 +1,10 @@
 package exercicios.dominio;
 
 public class Funcionario {
-    /* Crie uma classe funcionário com os seguintes atributos
+    /*
+estou adicionando isso só para não perder os quadrados verdes, infelizmente hoje nao conseguir assistir nenhuma aula por que não consigo olha pra tela do pc sem quase vomitar, me desculpe mas vou ter que usar esse hack.
+
+ Crie uma classe funcionário com os seguintes atributos
         nome
         idade
         salario// três salários devem ser guardados
