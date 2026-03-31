@@ -3,11 +3,13 @@ package academy.devdojo.maratonajava.javacore.Wnio.test;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.zip.ZipOutputStream;
 
 public class PathMatcherTest02 {
     static void main() throws IOException {
         Path path1 = Paths.get(".");
         Files.walkFileTree(path1,new FindFiles());
+
     }
     static class FindFiles extends SimpleFileVisitor<Path> {
         PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/*Test*.{java,class}");
