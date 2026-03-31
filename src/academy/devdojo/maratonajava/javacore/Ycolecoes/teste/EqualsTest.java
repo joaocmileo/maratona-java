@@ -1,4 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Ycolecoes;
+package academy.devdojo.maratonajava.javacore.Ycolecoes.teste;
+
+import academy.devdojo.maratonajava.javacore.Ycolecoes.domain.Smartphone;
 
 public class EqualsTest {
     static void main() {
