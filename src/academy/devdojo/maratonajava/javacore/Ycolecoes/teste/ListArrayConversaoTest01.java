@@ -17,7 +17,7 @@ public class ListArrayConversaoTest01 {
 
         List<Integer> list = Arrays.asList(arrayInteger);
 
-        list.set(2,1);
+         list.set(2,1);
         System.out.println(list);
         for (Integer i : arrayInteger) {
             System.out.println(i);
