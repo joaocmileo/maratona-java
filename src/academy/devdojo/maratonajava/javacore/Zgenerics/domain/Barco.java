@@ -2,20 +2,20 @@ package academy.devdojo.maratonajava.javacore.Zgenerics.domain;
 
 public class Barco {
 
-    private String marca;
+    private String nome;
 
     public Barco(String nome) {
-        this.marca = nome;
+        this.nome = nome;
     }
 
-    public String getMarca() {
-        return marca;
+    public String getNome() {
+        return nome;
     }
 
     @Override
     public String toString() {
         return "Barco{" +
-                "marca='" + marca + '\'' +
+                "marca='" + nome + '\'' +
                 '}';
     }
 }
